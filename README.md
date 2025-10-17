@@ -21,27 +21,27 @@ This course is being released daily. Currently available:
 
 Each day includes **20 minutes of theory** and **35 minutes of hands-on practice**, plus quick reviews and checklists.
 
-#### **[Day 1: Introduction to Astro & Project Setup](./02-agenda.md#day-1-introduction-to-astro--project-setup)**
+#### **[Day 1: Introduction to Astro & Project Setup](./1.md)**
 - Astro's server-first philosophy and Islands Architecture
 - Project setup and structure
 - File-based routing fundamentals
 
-#### **[Day 2: Astro Components & Syntax Mastery](./02-agenda.md#day-2-astro-components--syntax-mastery)**
+#### **[Day 2: Astro Components & Syntax Mastery](./2.md)**
 - Component anatomy with frontmatter and templates
 - Props, slots, and type safety with TypeScript
 - Scoped styling and layout components
 
-#### **[Day 3: Islands Architecture & Client Directives](./02-agenda.md#day-3-islands-architecture--client-directives)**
+#### **[Day 3: Islands Architecture & Client Directives](./3.md)**
 - Partial hydration with client directives
 - Framework integration (React, Vue, Svelte)
 - Strategic JavaScript loading strategies
 
-#### **[Day 4: Content Collections - Part 1 (Fundamentals)](./02-agenda.md#day-4-content-collections---part-1-fundamentals)**
+#### **[Day 4: Content Collections - Part 1 (Fundamentals)](./4.md)**
 - Type-safe content management with Zod
 - Creating and querying collections
 - Schema validation and organization
 
-#### **[Day 5: Content Collections - Part 2 (Advanced Features)](./02-agenda.md#day-5-content-collections---part-2-advanced-features)**
+#### **[Day 5: Content Collections - Part 2 (Advanced Features)](./5.md)**
 - Dynamic routing with getStaticPaths
 - Rendering Markdown/MDX content
 - Collection references and relationships
@@ -129,7 +129,11 @@ To get the most out of this course, you should have:
 ```
 astro-blitz/
 ├── README.md           # This file - course overview
-├── 02-agenda.md        # Complete course agenda with all lessons
+├── 1.md                # Day 1: Introduction to Astro & Project Setup
+├── 2.md                # Day 2: Astro Components & Syntax Mastery
+├── 3.md                # Day 3: Islands Architecture & Client Directives
+├── 4.md                # Day 4: Content Collections - Part 1
+├── 5.md                # Day 5: Content Collections - Part 2
 └── exercises/          # Coming soon: starter files and solutions
 ```
 
@@ -166,7 +170,7 @@ npm run dev
 
 ### Ready to Learn?
 
-Head over to **[Day 1: Introduction to Astro & Project Setup](./02-agenda.md#day-1-introduction-to-astro--project-setup)** and start your journey!
+Head over to **[Day 1: Introduction to Astro & Project Setup](./1.md)** and start your journey!
 
 ---
 
